@@ -1,0 +1,10 @@
+[project]
+name = "mcp-obs"
+version = "0.1.0"
+description = "Observability MCP server for VictoriaLogs and VictoriaTraces"
+readme = "README.md"
+requires-python = "==3.14.*"
+dependencies = [
+    "mcp",
+    "httpx",
+]
